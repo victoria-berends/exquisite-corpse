@@ -93,12 +93,7 @@ body{
 }
 .button:hover{
     color: white;
-    background: linear-gradient(white, darkgreen);
-    background: -webkit-linear-gradient(white, darkgreen);
-    background: -moz-linear-gradient(white, darkgreen);
-    background: -o-linear-gradient(white, darkgreen);
-    background: -ms-linear-gradient(white, darkgreen); 
-}
+    background:  rgb(26, 143, 133);
 .button:active{
     top: 4px;
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Drawing App</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+
+       
+       
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+  
+        <div id="header">Exquisite Corpse</div>
+
+
+        <div class="inputContainer" >
+
+         
+            <div class="input" id="colorInput">
+                <input type="color" list id="paintColor">      
+            </div>
+            
+       
+            <div class="input" id="thickenessInput">
+                <div id="circle"></div>
+            </div>
+            
+            <!--slider-->
+            <div class="input">
+                <div id="slider"></div>
+            </div>         
+        </div>        
+
+        <!--canvas-->
+        <div id="canvasContainer">
+            <canvas id="paint" width="500px" height="400px"></canvas>
+        </div>
+
+        <!-- buttons-->
+        <div class="btnContainer">
+            <!--Erase button -->
+            <div class="btnInput">
+                <span id="erase" class="button">Erase</span>
+            </div>
+            <!--Save button -->
+            <div class="btnInput">
+                <span id="save" class="button">Save</span>
+            </div>        
+            <!--Reset button -->
+            <div class="btnInput">
+                <span id="reset" class="button">Clear</span>
+            </div>       
+        </div>
+
+        
+        </script>
+    </body>
+</html>
